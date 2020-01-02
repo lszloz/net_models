@@ -1,5 +1,5 @@
 
-with open("inception_v3.caffemodel", 'rb') as f:
+with open("SE-BN-Inception.caffemodel", 'rb') as f:
     byte_list = []
     while True:
         single_r = f.read(25165824)
